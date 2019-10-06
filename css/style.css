@@ -432,7 +432,7 @@ section {
 }
 
 .play-icon:before {
-  font-family: 'fontawesome';
+  font-family: 'Helvetica';
   content: '\f144';
   speak: none;
   font-size: 74px;
@@ -568,7 +568,7 @@ section {
 }
 
 #nav-trigger span:after {
-  font-family: "fontAwesome";
+  font-family: "Helvetica";
   display: inline-block;
   width: 38px;
   height: 71px;
@@ -1116,7 +1116,7 @@ blockquote {
     cursor: pointer;
     text-align: center;
     color: #fff;
-    font-family: "fontawesome";
+    font-family: "Helvetica";
     font-size: 22px;
     opacity: 0.5;
     -webkit-transition: all 0.3s ease-out;
@@ -1165,7 +1165,7 @@ blockquote {
 @media all {
   .featherlight-next,
   .featherlight-previous {
-    font-family: "fontawesome";
+    font-family: "Helvetica";
     font-size: 22px;
     display: block;
     position: absolute;
@@ -1356,7 +1356,7 @@ blockquote {
 }
 
 #slvj-close-icon:before {
-  font-family: "fontawesome";
+  font-family: "Helvetica";
   color: #fff;
   content: '\f00d';
   font-size: 22px;
