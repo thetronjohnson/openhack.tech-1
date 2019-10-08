@@ -218,7 +218,7 @@ section {
 .row {
   max-width: 1245px;
   margin: 0 auto;
-  padding: 75px 0;
+  padding: 105px 0;
   position: relative;
 }
 
@@ -335,11 +335,15 @@ section {
 /* --------- 2.1 Header --------- */
 
 #header {
-  height: 71px !important;
   overflow: visible;
   z-index: 9999;
   width: 100%;
-  position: absolute !important;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #fafafa;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 20px 40px 0;
 }
 
 #header .row {
@@ -719,7 +723,7 @@ nav#nav-mobile a:hover {
 }
 
 #header .social-icons {
-  margin-top: 27px;
+  margin-top: 21px;
 }
 
 /* --------- 2.6 Images ---------- */
@@ -2201,8 +2205,13 @@ blockquote {
   }
 
   /*-----------------Header Elements-----------------*/
+
+  #header {
+    padding: 0 20px;
+  }
+
   #header .row {
-    padding: 0 15px !important;
+    padding: 0 !important;
   }
 
   #header.nav-solid [class*="col-"] {
@@ -2310,6 +2319,11 @@ blockquote {
   }
 
   /*-----------------Header Elements-----------------*/
+
+  #header {
+    padding: 0 20px;
+  }
+
   #header .row {
     padding: 0 !important;
   }
@@ -2317,10 +2331,10 @@ blockquote {
   #header aside {
     display: inline-block;
     position: absolute;
-    top: 40px;
+    top: 24px;
     right: 60px;
-    padding-top: 3px;
-    padding-right: 5px;
+    padding-top: 0;
+    padding-right: 0;
   }
 
   #header.nav-solid aside {
@@ -2329,7 +2343,6 @@ blockquote {
 
   #header aside ul {
     margin-top: 0 !important;
-    padding-top: 6px;
   }
 
   #banner-content.row {
@@ -2382,13 +2395,17 @@ blockquote {
   }
 
   /*-----------------Header Elements-----------------*/
+
+  #header {
+    padding: 0 20px;
+  }
   #header aside {
     display: inline-block;
     position: absolute;
-    top: 40px;
+    top: 25px;
     right: 60px;
-    padding-top: 3px;
-    padding-right: 5px;
+    padding-top: 0;
+    padding-right: 0;
   }
 
   #header.nav-solid aside {
@@ -2397,7 +2414,7 @@ blockquote {
 
   #header aside ul {
     margin-top: 0 !important;
-    padding-top: 6px;
+    padding-top: 0;
   }
 
   /*Navigation*/
