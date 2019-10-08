@@ -2439,3 +2439,28 @@ blockquote {
   padding-left: 50px;
   padding-right: 50px;
 }
+
+.copyleft b {
+  font: 18px Arial, sans-serif;
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+#landing-footer .copyleft {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  list-style: none;
+}
+
+#landing-footer .copyleft li {
+  display: inline-block;
+  margin: 0 0 0 0.45em;
+  padding: 0 0 0 0.85em;
+  border-left: solid 1px rgba(255, 255, 255, 0.5);
+  line-height: 1;
+}
+
+#landing-footer .copyleft li:first-child {
+  border-left: 0;
+}
